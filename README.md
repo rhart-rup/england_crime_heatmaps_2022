@@ -28,7 +28,8 @@ The 4 maps are detailed below:
 |london_crime_heat_map_hex_bin|Hex Bin Map|London|2022|Violent and Sexual Crime|
 |england_wales_ireland_crime_heat_map_hex_bin|Hex Bin Map|England, Wales and Northern Ireland|2022|Violent and Sexual Crime|
 
-## Heatmaps Showcase
+## Heatmaps Showcase
 Below we will provide a preview and basic explanation of each crime heatmap. 
+
 ### England_wales_crime_heatmap_choropleth
 ![alt text](./images/england_choropleth_1.jpeg)
