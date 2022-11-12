@@ -17,7 +17,7 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 5. Used plotly library to build interactive crime heatmaps. 
 
 ## Results
-- We built 4 different interactive crime heatmaps (using the plotly library) which can be found under the 'plots' folder of this repo. 
+- We built 4 different **interactive** crime heatmaps (using the plotly library) which can be found under the 'plots' folder of this repo. 
 - Plots that display multiple years of data or multiple crime types have drop downs to allow the user to select which years or crime types to view.
 - All map files are html files that can be viewed by any web browser.
 - Some maps have been compressed to make their file size compatible with github. 
@@ -30,8 +30,12 @@ The 4 maps are detailed below:
 |london_crime_heat_map_hex_bin|Hex Bin Map|London|2022|Violent and Sexual Crime|
 |england_wales_ireland_crime_heat_map_hex_bin|Hex Bin Map|England, Wales and Northern Ireland|2022|Violent and Sexual Crime|
 
+## Interactive Zoom and Panning
+All plots are **interactive** and therefore support full zoom and panning control:
+![alt text](./images/zoom.png)
+
 ## Heatmaps Showcase
-Below we will provide a preview and basic explanation of each crime heatmap: 
+Below we will provide a preview and basic explanation of each crime heatmap:
 
 ### England_wales_crime_heatmap_choropleth
 This heatmap has split the UK into electoral wards. It aggregates the crime count in each electoral ward and represents the data via a colour scale. The electoral wards range from being very small areas to very large areas. This makes comparing the crime counts in different electoral wards misleading. Larger wards are likely to contain more crimes simply because they cover more area. They may actually have fewer crimes per km<sup>2</sup> than a smaller ward, thus making it less likely that you would see or experience a crime within the larger ward. To account for this, we divided the crime count per electoral ward by the area of the electoral ward and called this the **crime density**. This is what is visualiused by the plot. 
@@ -65,3 +69,10 @@ By hovering the mouse over the hexagons you can get the exact crime count:
 ![alt text](./images/london_hex_2.png)
 
 ### england_wales_ireland_crime_heat_map_hex_bin
+This map only visualises *Violent and Sexual Crimes* in England, Wales and Northern Ireland in the last year. It splits the UK into identical hexagon shaped areas and aggregates the crime count in each hexagon. Note, these hexagons are larger than for the above plot.
+
+![alt text](./images/uk_hex_1.png)
+
+By hovering the mouse over the hexagons you can get the exact crime count:  
+
+![alt text](./images/uk_hex_2.png)
