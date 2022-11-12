@@ -4,7 +4,7 @@
 ## Objectives
 The aim of this project was to use official UK police crime data to visualise the variation in crime rates across England and other UK territories. The key question we want to answer is **how likely it is for me to witness or experience a crime in different neighborhoods of the UK**. An example use case for our visualisations would be if someone were moving house and wanted to understand how safe different neighborhoods are. 
 
-We wanted to test different geographic plot types (such as choropleths and hex bins) to experiment with different ways of representing the data. We used 3 years of crime data, between August 2019 and July 2022 (the most recently available data). . 
+We wanted to test different geographic plot types (such as choropleths and hex bins) to experiment with different ways of representing the data. We used 3 years of crime data, between August 2019 and July 2022 (the most recently available data).
 
 **Please Note** - *The UK police data did not include any data from Manchester (due to a data issue with the Manchester Police) and so our plots are missing data in this region.*
 
