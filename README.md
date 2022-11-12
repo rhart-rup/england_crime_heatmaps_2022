@@ -2,7 +2,9 @@
 ![alt text](./images/crime_1.png)
 
 ## Objectives
-The aim of this project was to use official UK police crime data to visualise crime rates across England. We wanted to test different plot types (such as choropleths and hex bins) to experiment with different ways of representing the data. We used 3 years of crime data, from between August 2019 and July 2022 (the most recently available data).
+The aim of this project was to use official UK police crime data to visualise the variation in crime rates across England and other UK territories. The key question we want to answer is **how likely it is for me to witness or experience a crime in different neighborhoods of the UK**. An example use case for our visualisations would be if someone were moving house and wanted to understand how safe different neighborhoods are. 
+
+We wanted to test different geographic plot types (such as choropleths and hex bins) to experiment with different ways of representing the data. We used 3 years of crime data, between August 2019 and July 2022 (the most recently available data). . 
 
 **Please Note** - *The UK police data did not include any data from Manchester (due to a data issue with the Manchester Police) and so our plots are missing data in this region.*
 
@@ -29,7 +31,17 @@ The 4 maps are detailed below:
 |england_wales_ireland_crime_heat_map_hex_bin|Hex Bin Map|England, Wales and Northern Ireland|2022|Violent and Sexual Crime|
 
 ## Heatmaps Showcase
-Below we will provide a preview and basic explanation of each crime heatmap. 
+Below we will provide a preview and basic explanation of each crime heatmap: 
 
 ### England_wales_crime_heatmap_choropleth
+This heatmap has split the UK into electoral wards. It aggregates the crime count in each electoral ward and represents the data via a colour scale. The electoral wards range from being very small areas to very large areas. This makes comparing the crime counts in different electoral wards misleading. Larger wards are likely to contain more crimes simply because they cover more area. They may actually have fewer crimes per km<sup>2</sup> than a smaller ward, thus making it less likely that you would see or experience a crime within the larger ward. To account for this, we divided the crime count per electoral ward by the area of the electoral ward and called this the **crime density**. This is what is visualiused by the plot. 
+
 ![alt text](./images/england_choropleth_1_1.png)
+
+This plot contains drop downs that allow you to select different years of data and different crime types to view: 
+
+![alt text](./images/england_choropleth_2.jpeg)
+
+The plot also provides ward specific data by hovering the mouse over a ward: 
+
+![alt text](./images/england_choropleth_3.jpeg)
