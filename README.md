@@ -22,7 +22,7 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 
 The 4 maps are detailed below:
 |File name|Plot Type|Geographic Area|Years Of Data|Crime Types|
-|---|---|---|---|---|
+|---|:---:|:---:|:---:|:---:|
 |england_wales_crime_heatmap_choropleth|Choropleth Map|England and Wales|2020, 2021 and 2022|All|
 |London_Crime_Heatmap_Scatter|Scatter Plot|London|2022|All|
 |london_crime_heat_map_hex_bin|Hex Bin Map|London|2022|Violent and Sexual Crime|
