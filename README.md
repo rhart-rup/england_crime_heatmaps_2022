@@ -4,7 +4,7 @@
 ## Objectives
 The aim of this project was to use official UK police crime data to visualise crime rates across England. We wanted to test different plot types (such as choropleths and hex bins) to experiment with different ways of representing the data. We used 3 years of crime data, from between August 2019 and July 2022 (the most recently available data).
 
-**Please Note** - The UK police data did not include any data from Manchester (due to a data issue with the Manchester Police) and so our plots are missing data in this region.
+**Please Note** - *The UK police data did not include any data from Manchester (due to a data issue with the Manchester Police) and so our plots are missing data in this region.*
 
 ## Approach
 The end to end approach, reasoning, data analysis and plotting is in the **crime_stats.ipynb** file. An outline of our approach is detailed below: 
