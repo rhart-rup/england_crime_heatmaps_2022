@@ -11,7 +11,8 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 1. Downloaded 3 years of crime data from [UK Police Website](https://data.police.uk/data/). This downloaded many separate csv files. 
 2. Used a python script (stored in 'scripts' folder of repo) to combine all csvs into a single file. 
 3. Downloaded electoral ward boundary data from the [Office for National Statistics](https://geoportal.statistics.gov.uk/search?q=wards) (this was used for the choropleth map). 
-4. Used python and plotly library to build interactive crime heatmaps. 
+4. Used python and geopandas to clean and prepare the data.
+5.Used plotly library to build interactive crime heatmaps. 
 
 ## Results
 - We built 4 different interactive crime heatmaps (using the plotly library) which can be found under the 'plots' folder of this repo. 
