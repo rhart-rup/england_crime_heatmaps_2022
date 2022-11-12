@@ -32,4 +32,4 @@ The 4 maps are detailed below:
 Below we will provide a preview and basic explanation of each crime heatmap. 
 
 ### England_wales_crime_heatmap_choropleth
-![alt text](./images/england_choropleth_1.jpeg)
+![alt text](./images/england_choropleth_1_1.png)
