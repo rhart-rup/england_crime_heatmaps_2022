@@ -56,5 +56,12 @@ This plot contains a drop down that allows you to select different crime types t
 ![alt text](./images/london_scatter_2.png)
 
 ### london_crime_heat_map_hex_bin
+This map only visualises *Violent and Sexual Crimes* in London in the last year. It splits London into identical hexagon shaped areas and aggregates the crime count in each hexagon. 
+
+![alt text](./images/london_hex_1.png)
+
+By hovering the mouse over the hexagons you can get the exact crime count:  
+
+![alt text](./images/london_hex_2.png)
 
 ### england_wales_ireland_crime_heat_map_hex_bin
