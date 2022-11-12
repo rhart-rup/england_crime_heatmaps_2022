@@ -45,3 +45,16 @@ This plot contains drop downs that allow you to select different years of data a
 The plot also provides ward specific data by hovering the mouse over a ward: 
 
 ![alt text](./images/england_choropleth_3.jpeg)
+
+### London_Crime_Heatmap_Scatter
+This map visualises crimes in London in the last year. Each reported crime is marked on the map as a small transparent red circle. When circles overlap (i.e. when crimes occur near one another) the red colors add together to become darker. Thus, darker areas of the plot indicate more crimes occuring in that area.
+
+![alt text](./images/london_scatter_1.png)
+
+This plot contains a drop down that allows you to select different crime types to view: 
+
+![alt text](./images/london_scatter_2.png)
+
+### london_crime_heat_map_hex_bin
+
+### england_wales_ireland_crime_heat_map_hex_bin
