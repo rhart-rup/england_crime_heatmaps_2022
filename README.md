@@ -12,7 +12,7 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 2. Used a python script (stored in 'scripts' folder of repo) to combine all csvs into a single file. 
 3. Downloaded electoral ward boundary data from the [Office for National Statistics](https://geoportal.statistics.gov.uk/search?q=wards) (this was used for the choropleth map). 
 4. Used python and geopandas to clean and prepare the data.
-5.Used plotly library to build interactive crime heatmaps. 
+5. Used plotly library to build interactive crime heatmaps. 
 
 ## Results
 - We built 4 different interactive crime heatmaps (using the plotly library) which can be found under the 'plots' folder of this repo. 
@@ -27,6 +27,7 @@ The 4 maps are detailed below:
 |London_Crime_Heatmap_Scatter|Scatter Plot|London|2022|All|
 |london_crime_heat_map_hex_bin|Hex Bin Map|London|2022|Violent and Sexual Crime|
 |england_wales_ireland_crime_heat_map_hex_bin|Hex Bin Map|England, Wales and Northern Ireland|2022|Violent and Sexual Crime|
+
 ## Heatmaps Showcase
 Below we will provide a preview and basic explanation of each crime heatmap. 
 ### England_wales_crime_heatmap_choropleth
