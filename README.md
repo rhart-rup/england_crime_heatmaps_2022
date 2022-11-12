@@ -38,7 +38,9 @@ All plots are **interactive** and therefore support full zoom and panning contro
 Below we will provide a preview and basic explanation of each crime heatmap:
 
 ### England_wales_crime_heatmap_choropleth
-This heatmap has split the UK into electoral wards. It aggregates the crime count in each electoral ward and represents the data via a colour scale. The electoral wards range from being very small areas to very large areas. This makes comparing the crime counts in different electoral wards misleading. Larger wards are likely to contain more crimes simply because they cover more area. They may actually have fewer crimes per km<sup>2</sup> than a smaller ward, thus making it less likely that you would see or experience a crime within the larger ward. To account for this, we divided the crime count per electoral ward by the area of the electoral ward and called this the **crime density**. This is what is visualiused by the plot. 
+This heatmap has split the UK into electoral wards. It aggregates the crime count in each electoral ward and represents the data via a colour scale. 
+
+The electoral wards range from being very small areas to very large areas. This makes comparing the crime counts in different electoral wards misleading. Larger wards are likely to contain more crimes simply because they cover more area. They may actually have fewer crimes per km<sup>2</sup> than a smaller ward, thus making it less likely that you would see or experience a crime within the larger ward. To account for this, we divided the crime count per electoral ward by the area of the electoral ward and called this the **crime density**. This is what is visualiused by the plot. 
 
 ![alt text](./images/england_choropleth_1_1.png)
 
