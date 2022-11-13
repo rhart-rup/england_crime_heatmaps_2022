@@ -21,7 +21,7 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 - Plots that display multiple years of data or multiple crime types have drop downs to allow the user to select which years or crime types to view.
 - All map files are html files that can be viewed by any web browser.
 
-The 4 maps are detailed below - **click on their name to view the map on your broswer**:
+The 4 maps are detailed below - **click on their name to view the map on your broswer, it may up to a minute to load**:
 |File name|Plot Type|Geographic Area|Years Of Data|Crime Types|
 |---|:---:|:---:|:---:|:---:|
 |<a href="https://htmlpreview.github.io/?https://github.com/rhart-rup/england_crime_heatmaps_2022/blob/main/plots/england_wales_crime_heatmap_choropleth.html">england_wales_crime_heatmap_choropleth</a>|Choropleth Map|England and Wales|2020, 2021 and 2022|All|
