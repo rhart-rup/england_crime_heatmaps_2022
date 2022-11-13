@@ -20,7 +20,6 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 - We built 4 different **interactive** crime heatmaps (using the plotly library) which can be found under the 'plots' folder of this repo. 
 - Plots that display multiple years of data or multiple crime types have drop downs to allow the user to select which years or crime types to view.
 - All map files are html files that can be viewed by any web browser.
-- Some maps have been compressed to make their file size compatible with github. 
 
 The 4 maps are detailed below - **click on their name to view the map on your broswer**:
 |File name|Plot Type|Geographic Area|Years Of Data|Crime Types|
