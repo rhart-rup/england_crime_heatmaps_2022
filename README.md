@@ -22,13 +22,13 @@ The end to end approach, reasoning, data analysis and plotting is in the **crime
 - All map files are html files that can be viewed by any web browser.
 - Some maps have been compressed to make their file size compatible with github. 
 
-The 4 maps are detailed below:
+The 4 maps are detailed below - **click on their name to view the map on your broswer**:
 |File name|Plot Type|Geographic Area|Years Of Data|Crime Types|
 |---|:---:|:---:|:---:|:---:|
-|england_wales_crime_heatmap_choropleth|Choropleth Map|England and Wales|2020, 2021 and 2022|All|
+|<a href="https://htmlpreview.github.io/?https://github.com/rhart-rup/england_crime_heatmaps_2022/blob/main/plots/england_wales_crime_heatmap_choropleth.html">england_wales_crime_heatmap_choropleth</a>|Choropleth Map|England and Wales|2020, 2021 and 2022|All|
 |<a href="https://htmlpreview.github.io/?https://github.com/rhart-rup/england_crime_heatmaps_2022/blob/main/plots/London_Crime_Heatmap_Scatter.html">London_Crime_Heatmap_Scatter</a>|Scatter Plot|London|2022|All|
 |<a href="https://htmlpreview.github.io/?https://github.com/rhart-rup/england_crime_heatmaps_2022/blob/main/plots/london_crime_heat_map_hex_bin.html">london_crime_heat_map_hex_bin</a>|Hex Bin Map|London|2022|Violent and Sexual Crime|
-|england_wales_ireland_crime_heat_map_hex_bin|Hex Bin Map|England, Wales and Northern Ireland|2022|Violent and Sexual Crime|
+|<a href="https://htmlpreview.github.io/?https://github.com/rhart-rup/england_crime_heatmaps_2022/blob/main/plots/england_wales_ireland_crime_heat_map_hex_bin.html">england_wales_ireland_crime_heat_map_hex_bin</a>|Hex Bin Map|England, Wales and Northern Ireland|2022|Violent and Sexual Crime|
 
 ## Interactive Zoom and Panning
 All plots are **interactive** and therefore support full zoom and panning control:
